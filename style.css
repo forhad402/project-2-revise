@@ -1,6 +1,20 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
 body{
     font-family: Arial;
     margin: none;
+
 }
 h1{
     font-size: 50px;
@@ -10,13 +24,17 @@ h4{
 }
 .highlight {
     color: tomato;
-}
 
+}
+.highlight:hover{
+    size: 52px;
+    color: dimgrey;
+}
 .half-width{
-    width: 40%;
+    width: 450px;
     float: left;
-    margin: 20px;
-    padding: 50px;
+    margin: 50px;
+    padding: 20px;
 }
 .half-width img{
     width: 80%;
@@ -31,14 +49,58 @@ h4{
     padding: 10px;
     color: white;
     border-radius: 5px;
-    transition: transform .2s;
+  
 }
 .link-button:hover{
+    font-size: 18px;
+}
+.web-top{
+    background-image: url("web-portfolio-2/images/header-bg.png");
+    background-position: left;
+}
+.web-middle{
+    background-image: url("web-portfolio-2/images/biography-bg.png");
+}
+.web-third{
+    background-image: url("web-portfolio-2/images/latest-work-bg.png");
+}
+section{
+    height:600px;
+    width: auto;
+}
+.latest-work{
+    text-align: center;
+    font-size: 40px;
+}
+.image-setting img{
+width: 400px;
+margin: 10px;
+padding: 10px;
+transition: transform .2s;
+}
+.image-setting img:hover{
     transform: scale(1.1);
 }
-/* section{
-    width: 100%; */
+.client-say{
+    font-size: 50px;
+    text-align: center;
 }
-#latest-work{
-    text-align: Center;
+.client-review{
+    text-align: center;
+}
+
+.contact-info{
+    
+    border-style: solid;
+    width: 500px;
+    background-color: darkred;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    transition: transform .2s;
+}
+.contact-info:hover{
+    transform: scale(1.1);
 }
