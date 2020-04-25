@@ -1,0 +1,44 @@
+body{
+    font-family: Arial;
+    margin: none;
+}
+h1{
+    font-size: 50px;
+}
+h4{
+    color: gray;
+}
+.highlight {
+    color: tomato;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin: 20px;
+    padding: 50px;
+}
+.half-width img{
+    width: 80%;
+    transition: transform .2s;
+}
+.half-width img:hover{
+    transform: scale(1.1);
+}
+.link-button{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    transition: transform .2s;
+}
+.link-button:hover{
+    transform: scale(1.1);
+}
+/* section{
+    width: 100%; */
+}
+#latest-work{
+    text-align: Center;
+}
