@@ -90,8 +90,6 @@ transition: transform .2s;
 }
 
 .contact-info{
-    
-    border-style: solid;
     width: 500px;
     background-color: darkred;
     padding: 20px;
@@ -103,4 +101,7 @@ transition: transform .2s;
 }
 .contact-info:hover{
     transform: scale(1.1);
+}
+.final-task{
+    background-image: url("web-portfolio-2/images/footer-bg.png");
 }
